@@ -1,0 +1,76 @@
+:root {
+    --primary: #b88e2f;
+    --secondary: #000;
+    --font-family: "Poppins", sans-serif;
+}
+
+
+/* CSS COMMON START */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+.container {
+    max-width: 1240px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* CSS COMMON END */
+/* NAVBAR STARTS HEAR */
+nav .logo {
+    width: 20%;
+}
+
+nav .menu {
+    width: 50%;
+}
+
+nav .menu ul {
+    justify-content: center;
+}
+
+nav .menu ul li a {
+    padding: 38px 37.5px;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}
+
+nav .quciklinks {
+    width: 30%;
+    text-align: right;
+
+}
+nav .row{
+    align-items: center;
+}
+nav .quciklinks a{
+    color: #000;
+    font-size: 23.33px;
+    margin: 0 22.5px;
+}
+
+/* NAVBAR ENDS HEAR */
